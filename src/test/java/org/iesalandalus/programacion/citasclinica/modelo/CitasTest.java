@@ -204,7 +204,7 @@ public class CitasTest {
 	}
 	
 	@Test
-	public void insertarCitaValidaConCitasLlenasLanzaExcepcion() {
+	public void insertarCitaValidaConCitasLlenasLanzaExcepcion() throws OperationNotSupportedException {
 		Citas citas = new Citas(2);
 		try {
 			citas.insertar(cita1);
